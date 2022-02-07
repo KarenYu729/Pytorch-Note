@@ -1,5 +1,5 @@
 https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py
-This part shows diffrent method to create Tensor in Pytorch.
+This part shows diffrent method to create Tensor in Pytorch, and other operations for tensor.
 
 
 import torch
