@@ -1,6 +1,6 @@
 https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py
 This part shows diffrent method to create Tensor in Pytorch, and other operations for tensor.
-
+本内容为创建tensor的方法和一些tensor的操作，如加、乘等
 
 import torch
 import numpy as np
@@ -13,6 +13,8 @@ print(data)
 print(x_data)
 # data is a list with several lists in it
 # x_data has changed them into tensors
+# data 列表
+# x_data 张量
 
 Output:
 [[1, 2], [3, 4]]
@@ -34,6 +36,7 @@ print(x_np)
 It is quite clear that np_array change list into the type 'numpy.ndarray'
 I met it once before when I had machine learning class last semester
 x_np is clearly another way to creat Tensor(not from the original list) but from 'numpy.ndarray'(what has already been processed by the numpy package
+从numpy.array创建张量，当然numpy.array是从list创建的
 """
 
 Output:
@@ -62,6 +65,7 @@ print(f"Random Tensor: \n {x_rand} \n")
 It provide another method to creat Tensor
 clearly the function torch.ones_like() return Tensor with the same size as x_data, and what in the tensor is all 0
 https://pytorch.org/docs/stable/generated/torch.ones_like.html
+x_data提供的是创建的张量的大小，与MATLAB中的ones差不了太多
 
 torch.rand_like() function creat random elements.
 https://pytorch.org/docs/stable/generated/torch.rand_like.html?highlight=torch%20rand_like#torch.rand_like
