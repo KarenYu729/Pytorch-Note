@@ -1,0 +1,16 @@
+https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py
+
+import torch
+import numpy as np
+
+data = [[1, 2], [3, 4]]
+x_data = torch.tensor(data)
+print(data) 
+print(x_data)
+# data is a list with several lists in it
+# x_data has changed them into tensors
+
+Output:
+[[1, 2], [3, 4]]
+tensor([[1, 2],
+        [3, 4]])
